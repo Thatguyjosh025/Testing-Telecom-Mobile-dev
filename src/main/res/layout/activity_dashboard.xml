@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFC7F4"
+    tools:context=".dashboard">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="347dp"
+        android:layout_height="263dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+        <TextView
+            android:id="@+id/textViewDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Download Mbps"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewDownloadmbps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="35dp"
+            android:shadowColor="#6358D0"
+            android:text="29.9"
+            android:textColor="#ff6750a4"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/textViewUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Upload Mbps"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textViewUploadmbps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="35dp"
+            android:text="8.43"
+            android:textColor="#ff6750a4"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/textViewNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="130dp"
+            android:shadowColor="#0B0B0B"
+            android:text="Network:"
+            android:textColor="#0B0B0B"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewServer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="150dp"
+            android:shadowColor="#090909"
+            android:text="Location:"
+            android:textColor="#0B0B0B"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="170dp"
+            android:text="IP:"
+            android:textColor="#090909"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewNetworksource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="130dp"
+            android:text="Smart Communications"
+            android:textColor="#ff6750a4"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewServersource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="150dp"
+            android:text="Alabang, Muntinlupa"
+            android:textColor="#ff6750a4"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewIpsource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="170dp"
+            android:text="136.158.27.6"
+            android:textColor="#ff6750a4"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="200dp"
+            android:text="SPEED TEST" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="345dp"
+        android:layout_height="458dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="32dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="310dp"
+            app:cardBackgroundColor="#ff6750a4"
+            app:cardCornerRadius="7dp">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Settings"
+                android:textColor="#F4EEEE" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/settings_line_icon" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="310dp"
+            app:cardBackgroundColor="#ff6750a4"
+            app:cardCornerRadius="7dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Chat Support"
+                android:textColor="#F4EEEE" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/female_services_support_icon" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="170dp"
+            android:onClick="analytics"
+            android:clickable="true"
+            app:cardBackgroundColor="#ff6750a4"
+            app:cardCornerRadius="7dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Network Analytics"
+                android:textColor="#F4EEEE"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/globe_network_icon" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="170dp"
+            android:onClick="Datausage"
+            app:cardBackgroundColor="#ff6750a4"
+            app:cardCornerRadius="7dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Data Usage"
+                android:textColor="#F4EEEE" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/mobile_signal_icon" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:onClick="Messages"
+            app:cardBackgroundColor="#ff6750a4"
+            app:cardCornerRadius="7dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/message_icon" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Messages"
+                android:textColor="#F4EEEE" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="30dp"
+            app:cardBackgroundColor="#ff6750a4"
+            app:cardCornerRadius="7dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Calls and Contacts"
+                android:textColor="#F4EEEE"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/phone_line_icon" />
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="48dp"
+        android:text="Hello world!"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
